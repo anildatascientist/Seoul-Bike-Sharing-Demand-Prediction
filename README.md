@@ -54,5 +54,7 @@ Following are the results of the evaluation:
 
 ![Evaluation Results](https://user-images.githubusercontent.com/59911959/223329899-97bd58a3-42a3-4efa-afa0-efac86ed1b7c.png)
 
+
 •	Out of all the above models “Random forest Regressor” gives the highest Adj.R2 score of 99%.
+
 • For the Train Set and “XG Boost Grid search CV” gives the highest Adj.R2 score of 91% for the Test set.
