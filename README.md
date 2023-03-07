@@ -1,14 +1,15 @@
 # Seoul-Bike-Sharing-Demand-Prediction
-Abstract:
+
+# Abstract:
 As a convenient, economical, and eco-friendly travel mode, bike-sharing greatly improved urban mobility. However, it is often very difficult to achieve a balanced utilization of shared bikes due to the asymmetric user demand distribution and the insufficient numbers of shared bikes, docks, or parking areas. If we can predict the short-run bike-sharing demand, it will help operating agencies rebalance bike-sharing systems in a timely and efficient way. 
 
-Introduction:
+# Introduction:
 Bike-sharing system demand nowadays is increasing in proportional manners globally. This system has gained a lot of attention with its cost-effective system and easy-to-use nature. This system has already attracted a huge customer base globally like in South Korea, São Paulo, China, and Australia. A bike-sharing system generally rents bikes on an hour, day, and monthly basis and is generally based on static pricing inclusive of the hour, days, or month. Because of its affordability and easy renting system, anyone can commute on arrival. According to our problem, our main aim is to build a predictive model so as to find the number of bikes rented based on the given dataset.               
 
-Business Requirement:
+# Business Requirement:
 The main objective is to build a predictive model, which could help to train a model to predict the number of bike rentals of the year given the weather conditions.  This would in turn help to predict quickly and efficiently.
 
-Data Summary:
+# Data Summary:
 The dataset contains the following columns: 
 
 •	Date: year-month-day
@@ -39,7 +40,7 @@ The dataset contains the following columns:
 
 •	Functional Day - NoFunc(Non Functional Hours), Fun(Functional hours)
 
-Conclusion and Insights:
+# Conclusion and Insights:
 In the analysis, initially performed EDA on all the features of our dataset. 
 First analyzed the dependent variable i.e., 'Rented Bike Count', and also transformed it. 
 Next, was the analysis of the categorical variable and dropped the variable that had the majority of one class. Thereafter, analyzed numerical variables, and checked out the correlation, distribution, and relationship with the dependent variable. 
