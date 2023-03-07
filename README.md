@@ -47,9 +47,11 @@ I removed some numerical features that had mostly 0 values and hot encoded the c
 Next, implemented 7 machine learning algorithms Linear Regression, Lasso, Ridge, Elastic Net, Decision Tree, Random Forest, XGBoost, and XGBoost with Grid Search CV. We did some hyperparameter tuning to improve our model performance.
 No overfitting was seen. 
 Compared the root mean squared error and mean absolute error of all the models, the XG- boost regression model has less root mean squared error and mean absolute error, ending with the Adj. R-squared of 91%. So, finally, this model is best for predicting the bike rental count on daily basis. 
-For all the models, temperature or hour was ranked as the most influential variable to predict the rental bike demand at each hour. 
+For all the models, temperature or hour was ranked as the most influential variable to predict the rental bike demand at each hour.
 
 Following are the results of the evaluation:
+
+
 ![Evaluation Results](https://user-images.githubusercontent.com/59911959/223329899-97bd58a3-42a3-4efa-afa0-efac86ed1b7c.png)
 
 •	Out of all the above models “Random forest Regressor” gives the highest Adj.R2 score of 99%.
